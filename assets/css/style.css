@@ -1,0 +1,200 @@
+header {
+  height: 100vh;
+  background-image: url(../img/bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.container {
+  margin: auto;
+  max-width: 1100px;
+  height: 100%;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 21px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.header__link {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.header__title {
+  padding-top: 200px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 144px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.header__weather {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 120px;
+}
+.header__weather-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
+}
+.header__weather-text--second {
+  color: #bf8e5f;
+}
+.header__weather-img {
+  width: 30px;
+  height: 25px;
+}
+.header__weather-stan {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  color: #fff;
+}
+
+.geo {
+}
+
+.geo__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+}
+.geo__content {
+  margin-top: 100px;
+  margin-bottom: 160px;
+  display: flex;
+  justify-content: flex-end;
+}
+.geo__text {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.geo__text-text--box {
+  width: 47%;
+}
+.geo__text-text {
+  font-family: "Manrope";
+  font-size: 16px;
+}
+.geo__text-button {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background: rgba(191, 142, 95, 0.78);
+  border-radius: 40px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+.geo__wraper-undertitle {
+  width: 50%;
+  text-align: center;
+}
+.geo__undertitle {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  color: #000;
+  margin-bottom: 50px;
+}
+.geo__content-second {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.geo__wraper-about {
+  width: 47%;
+  display: flex;
+  justify-content: space-between;
+}
+.geo__about-items {
+  width: 45%;
+}
+.geo_about-description {
+  display: flex;
+}
+.geo__about-ava {
+  border-radius: 50%;
+}
+.geo__about-description-text {
+  margin-left: 20px;
+}
+.geo__about-full-name {
+  display: block;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+}
+.geo__about-work {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 20px;
+}
+.geo__about-text {
+  padding-top: 10px;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 23px;
+}
+.geo__about-button {
+  margin-top: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 40px;
+  border: 4px solid #bf8e5f;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 25px 0;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+}
+.geo__video {
+  width: 47%;
+  background-image: url(../img/bg-video.png);
+  background-size: cover;
+  height: 240px;
+}
+.geo__video-play {
+}
+.geo__video-text {
+}
+.geo__video-play-text {
+}
+.geo__video-descriptions-text {
+}
